@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-labelledby="title description">
+  <title id="title">Beagle illustration</title>
+  <desc id="description">A happy brown, black, and white Beagle sitting on grass.</desc>
+  <ellipse cx="200" cy="247" rx="130" ry="15" fill="#a9c99b"/>
+  <path d="M143 154c-26 12-39 48-29 87h150c8-44-10-80-48-90z" fill="#fffaf1" stroke="#3d352f" stroke-width="6"/>
+  <path d="M212 160c42 7 56 43 52 81h-61c13-36 6-61-16-78z" fill="#332d2a"/>
+  <path d="M134 113c-20-33-49-34-57-20-8 15 10 61 41 70z" fill="#9c5f35" stroke="#3d352f" stroke-width="6"/>
+  <path d="M242 113c20-33 49-34 57-20 8 15-10 61-41 70z" fill="#9c5f35" stroke="#3d352f" stroke-width="6"/>
+  <path d="M119 115c9-43 41-65 73-65s64 22 73 65c7 36-18 71-73 71s-80-35-73-71z" fill="#b97842" stroke="#3d352f" stroke-width="6"/>
+  <path d="M161 58c9-5 20-8 31-8s22 3 31 8l-5 51h-52z" fill="#fffaf1"/>
+  <path d="M166 135c8-16 44-16 52 0 7 16-7 32-26 32s-33-16-26-32z" fill="#fffaf1"/>
+  <ellipse cx="192" cy="137" rx="14" ry="10" fill="#3d352f"/>
+  <circle cx="157" cy="113" r="7" fill="#3d352f"/>
+  <circle cx="227" cy="113" r="7" fill="#3d352f"/>
+  <circle cx="154" cy="110" r="2" fill="white"/>
+  <circle cx="224" cy="110" r="2" fill="white"/>
+  <path d="M192 147v8m0 0c-9 8-18 5-23 1m23-1c9 8 18 5 23 1" fill="none" stroke="#3d352f" stroke-linecap="round" stroke-width="4"/>
+  <path d="M128 239h35m58 0h35" stroke="#3d352f" stroke-linecap="round" stroke-width="8"/>
+  <path d="M256 186c35-23 58-8 56 14" fill="none" stroke="#3d352f" stroke-linecap="round" stroke-width="10"/>
+</svg>

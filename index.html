@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Meet three popular dog breeds in the Virtual Dog Park."
+    >
+    <title>Virtual Dog Park</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="logo" href="#top" aria-label="Virtual Dog Park home">
+          <span aria-hidden="true">🐾</span> Virtual Dog Park
+        </a>
+        <a href="#encyclopedia">Dog Encyclopedia</a>
+      </nav>
+
+      <div class="hero-content" id="top">
+        <p class="eyebrow">Welcome, dog lovers!</p>
+        <h1>Come meet some wonderful dogs.</h1>
+        <p class="welcome-message">
+          Explore the park and learn simple facts about three friendly breeds,
+          from their size and personality to the care they need every day.
+        </p>
+        <button class="primary-button" id="meet-dogs-button" type="button">
+          Meet the dogs
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="encyclopedia" id="encyclopedia" aria-labelledby="encyclopedia-title">
+        <div class="section-heading">
+          <p class="eyebrow">Quick breed guide</p>
+          <h2 id="encyclopedia-title">Dog Encyclopedia</h2>
+          <p>Every dog is unique, but these notes are a helpful place to start.</p>
+        </div>
+
+        <div class="dog-grid">
+          <article class="dog-card">
+            <div class="illustration beagle-background">
+              <img src="assets/beagle.svg" alt="Illustration of a Beagle.">
+            </div>
+            <div class="card-content">
+              <h3>Beagle</h3>
+              <dl>
+                <div>
+                  <dt>Size</dt>
+                  <dd>Small to medium, with short legs and floppy ears.</dd>
+                </div>
+                <div>
+                  <dt>Personality</dt>
+                  <dd>Curious, cheerful, and always ready to follow a scent.</dd>
+                </div>
+                <div>
+                  <dt>Everyday care</dt>
+                  <dd>Needs daily walks, playtime, and regular ear checks.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="dog-card">
+            <div class="illustration golden-background">
+              <img
+                src="assets/golden-retriever.svg"
+                alt="Illustration of a Golden Retriever."
+              >
+            </div>
+            <div class="card-content">
+              <h3>Golden Retriever</h3>
+              <dl>
+                <div>
+                  <dt>Size</dt>
+                  <dd>Medium to large, with a strong body and fluffy coat.</dd>
+                </div>
+                <div>
+                  <dt>Personality</dt>
+                  <dd>Friendly, gentle, and happy to learn new things.</dd>
+                </div>
+                <div>
+                  <dt>Everyday care</dt>
+                  <dd>Needs exercise, company, and frequent coat brushing.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="dog-card">
+            <div class="illustration poodle-background">
+              <img src="assets/poodle.svg" alt="Illustration of a Poodle.">
+            </div>
+            <div class="card-content">
+              <h3>Poodle</h3>
+              <dl>
+                <div>
+                  <dt>Size</dt>
+                  <dd>Comes in toy, miniature, and standard sizes.</dd>
+                </div>
+                <div>
+                  <dt>Personality</dt>
+                  <dd>Smart, active, and often quick to learn tricks.</dd>
+                </div>
+                <div>
+                  <dt>Everyday care</dt>
+                  <dd>Needs play, training, and regular coat grooming.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with care for curious dog lovers. <span aria-hidden="true">🐕</span></p>
+    </footer>
+  </body>
+</html>

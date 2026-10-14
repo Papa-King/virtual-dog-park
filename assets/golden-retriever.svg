@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-labelledby="title description">
+  <title id="title">Golden Retriever illustration</title>
+  <desc id="description">A smiling golden dog with a fluffy tail standing on grass.</desc>
+  <ellipse cx="204" cy="247" rx="151" ry="15" fill="#d4b86d" opacity="0.55"/>
+  <path d="M284 179c43-45 76-24 57 14-9 19-27 22-43 25z" fill="#d99731" stroke="#594128" stroke-width="6"/>
+  <path d="M113 153c28-26 132-25 174 7 21 16 18 57-6 73-30 20-139 15-171-3-31-17-26-50 3-77z" fill="#e4a642" stroke="#594128" stroke-width="6"/>
+  <path d="M127 218v24m39-21v21m80-19v19m38-27v27" stroke="#594128" stroke-linecap="round" stroke-width="13"/>
+  <path d="M89 100c-24-20-47-6-42 17 4 20 24 39 48 40z" fill="#c9852f" stroke="#594128" stroke-width="6"/>
+  <path d="M187 100c24-20 47-6 42 17-4 20-24 39-48 40z" fill="#c9852f" stroke="#594128" stroke-width="6"/>
+  <circle cx="138" cy="109" r="61" fill="#e4a642" stroke="#594128" stroke-width="6"/>
+  <path d="M103 126c9-23 61-23 70 0 9 25-10 47-35 47s-44-22-35-47z" fill="#f7d289"/>
+  <ellipse cx="138" cy="126" rx="15" ry="11" fill="#594128"/>
+  <circle cx="111" cy="102" r="7" fill="#594128"/>
+  <circle cx="165" cy="102" r="7" fill="#594128"/>
+  <circle cx="109" cy="99" r="2" fill="white"/>
+  <circle cx="163" cy="99" r="2" fill="white"/>
+  <path d="M138 137v8m-21 1c11 17 32 20 43 0" fill="none" stroke="#594128" stroke-linecap="round" stroke-width="4"/>
+  <path d="M130 151c5 12 15 19 22 6" fill="#d96861" stroke="#594128" stroke-width="3"/>
+</svg>
