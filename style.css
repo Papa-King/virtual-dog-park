@@ -309,6 +309,16 @@ dd {
   display: none;
 }
 
+.adoption-form[hidden] {
+  display: none;
+}
+
+.virtual-dog-card {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 700px;
+}
+
 .dog-status {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -328,6 +338,20 @@ progress {
   height: 18px;
   margin-bottom: 24px;
   accent-color: var(--green);
+}
+
+.meter-label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--green-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#growth-meter {
+  accent-color: #c57b38;
 }
 
 .care-buttons {
@@ -359,6 +383,24 @@ progress {
   color: var(--green-dark);
   font-weight: 700;
   text-align: center;
+}
+
+.start-over-button {
+  display: block;
+  margin: 14px auto 0;
+  padding: 6px 10px;
+  border: 0;
+  color: var(--muted-ink);
+  background: transparent;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.start-over-button:hover,
+.start-over-button:focus-visible {
+  color: #a12f25;
 }
 
 footer {
@@ -430,6 +472,14 @@ footer p {
 
   .card-content {
     padding: 22px;
+  }
+
+  .care-buttons {
+    flex-wrap: wrap;
+  }
+
+  .care-button {
+    min-width: 120px;
   }
 
   .adoption-form,
