@@ -17,7 +17,10 @@
         <a class="logo" href="#top" aria-label="Virtual Dog Park home">
           <span aria-hidden="true">🐾</span> Virtual Dog Park
         </a>
-        <a href="#encyclopedia">Dog Encyclopedia</a>
+        <div class="nav-links">
+          <a href="#encyclopedia">Dog Encyclopedia</a>
+          <a href="#virtual-dog">My Virtual Dog</a>
+        </div>
       </nav>
 
       <div class="hero-content" id="top">
@@ -112,6 +115,76 @@
                 </div>
               </dl>
             </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="virtual-dog" id="virtual-dog" aria-labelledby="virtual-dog-title">
+        <div class="section-heading">
+          <p class="eyebrow">Your new park pal</p>
+          <h2 id="virtual-dog-title">My Virtual Dog</h2>
+          <p>Choose a breed, give your dog a name, and care for your new friend.</p>
+        </div>
+
+        <div class="adoption-layout">
+          <form class="adoption-form" id="adoption-form" novalidate>
+            <h3>Adopt a dog</h3>
+
+            <div class="form-field">
+              <label for="dog-breed">Choose a breed</label>
+              <select id="dog-breed" name="dog-breed">
+                <option value="Beagle">Beagle</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Poodle">Poodle</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="dog-name">Dog name</label>
+              <input
+                id="dog-name"
+                name="dog-name"
+                type="text"
+                maxlength="20"
+                aria-describedby="name-help name-error"
+              >
+              <p class="field-help" id="name-help">Use 1 to 20 characters.</p>
+              <p class="error-message" id="name-error" role="alert"></p>
+            </div>
+
+            <button class="primary-button" type="submit">Adopt</button>
+          </form>
+
+          <article class="virtual-dog-card" id="virtual-dog-card" hidden>
+            <p class="eyebrow">Adoption complete!</p>
+            <h3 id="adopted-dog-name"></h3>
+
+            <dl class="dog-status">
+              <div>
+                <dt>Breed</dt>
+                <dd id="adopted-dog-breed"></dd>
+              </div>
+              <div>
+                <dt>Day</dt>
+                <dd id="dog-day"></dd>
+              </div>
+              <div>
+                <dt>Growth stage</dt>
+                <dd id="dog-stage"></dd>
+              </div>
+              <div>
+                <dt>Happiness</dt>
+                <dd><span id="dog-happiness"></span> / 100</dd>
+              </div>
+            </dl>
+
+            <progress id="happiness-meter" value="50" max="100">50%</progress>
+
+            <div class="care-buttons">
+              <button class="care-button" id="feed-button" type="button">Feed</button>
+              <button class="care-button" id="play-button" type="button">Play</button>
+            </div>
+            <p class="care-message" id="care-message" aria-live="polite"></p>
           </article>
         </div>
       </section>
